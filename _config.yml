@@ -1,6 +1,7 @@
 name: NetPositive
 description: A podcast about activism & technology
-url: http://andreadelrio.github.io/netpositive/
+url: http://andreadelrio.github.io
+baseurl: /netpositive/
 permalink: /:categories/:title
 img_dir: "/assets/img/"
 contact:
