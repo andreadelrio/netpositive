@@ -13,7 +13,7 @@
 				    <h4>Episode {{ page.episode_number }}</h4>
 				    <h3><a href="{{ post.url }}">{{ page.title }}</a></h3>
 				    <h4>with {{ page.guest }}</h4>
-				    <img src="/assets/img/{{page.image}}" class="img-circle img-responsive" alt="">              
+				    <img src="{{site.baseurl}}/assets/img/{{page.image}}" class="img-circle img-responsive" alt="">              
 					</div>
 				</div>
 				<div class="col-sm-7">
@@ -28,7 +28,7 @@
 			    		{% endfor %}
 			    	</ul>
 			    </div>
-			    <h5 class="pt-14">Enjoyed this episode? <a href="{{site.url}}/#episodes">Check out other episodes.</a></h5>
+			    <h5 class="pt-14">Enjoyed this episode? <a href="{{site.baseurl}}/#episodes">Check out other episodes.</a></h5>
 				</div>
 			</div>
 		</div>	
